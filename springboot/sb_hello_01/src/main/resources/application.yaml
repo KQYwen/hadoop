@@ -1,0 +1,8 @@
+#关闭默认图标
+spring:
+  thymeleaf:
+    mode: HTML
+    cache: false
+
+  messages:
+    basename: i18n.login
