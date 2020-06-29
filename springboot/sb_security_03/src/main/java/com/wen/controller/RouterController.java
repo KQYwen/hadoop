@@ -19,7 +19,7 @@ public class RouterController {
 
     @RequestMapping("/level1/{id}")
     public String level1(@PathVariable("id") int id){
-        return "views/level/"+id;
+        return "views/level1/"+id;
     }
 
     @RequestMapping("/level2/{id}")
